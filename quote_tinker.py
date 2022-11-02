@@ -74,7 +74,7 @@ two_x_checkbox.grid(column=1, row=2, sticky=W)
 
 three_x_check = StringVar()
 three_x_checkbox = ttk.Checkbutton(oversizedframe, text='3XLs?',
-	    variable=two_x_check,
+	    variable=three_x_check,
 	    onvalue='yes', offvalue='no')
 three_x_checkbox.grid(column=3, row=2, sticky=E)
 
