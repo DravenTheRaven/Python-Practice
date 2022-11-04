@@ -48,15 +48,29 @@ class QuoteFrame(ttk.Frame):
         three_x_checkbox = ttk.Checkbutton(
             self,
             text='3XLs?',
-            variable=three_x_check)
+            variable=three_x_check,
+            command=findwindow())
 
         three_x_checkbox.grid(column=1, row=4, sticky=tk.W)
 
         for widget in self.winfo_children():
             widget.grid(padx=0, pady=3)
 
+class FindWindow(tk.Toplevel):
+    def __init__(self, app, **kwargs):
+        super().__init__(**kwargs )
+        self.geometry('350x100')
+        self.title('Find and Replace')
 
+        self.__create_widgets()
 
+    def __create_widgets(self):
+        two_x_check = tk.StringVar()
+        two_x_checkbox = ttk.Checkbutton(
+            self,
+            text='2XLs?',
+            variable=two_x_check)
+        two_x_checkbox.grid(column=1, row=4, sticky=tk.W)
 
 class App(tk.Tk):
     def __init__(self):
