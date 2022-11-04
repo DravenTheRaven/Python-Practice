@@ -65,14 +65,36 @@ class QuoteFrame(ttk.Frame):
         self.__create_widgets(controller)
 
     def __create_widgets(self, controller):
-        self.customer_label = ttk.Label(self, text="Customer")
+        self.customer_label = ttk.Label(self, text="Customer:")
         self.customer_label.pack()
         self.customer_entry = ttk.Entry(self, width=20)
         self.customer_entry.pack()
         self.customer_entry.focus()
 
+        self.job_label = ttk.Label(self, text="Job Name:")
+        self.job_label.pack()
+        self.job_entry = ttk.Entry(self, width=20)
+        self.job_entry.pack()
 
+        self.item_label = ttk.Label(self, text="Item Number:")
+        self.item_label.pack()
+        self.item_entry = ttk.Entry(self, width=20)
+        self.item_entry.pack()
 
+        self.color_label = ttk.Label(self, text="Item Color:")
+        self.color_label.pack()
+        self.color_entry = ttk.Entry(self, width=20)
+        self.color_entry.pack()
+
+        self.blank_label = ttk.Label(self, text="Blank Cost:")
+        self.blank_label.pack()
+        self.blank_entry = ttk.Entry(self, width=20)
+        self.blank_entry.pack()
+
+        self.quantity_label = ttk.Label(self, text="Quantity:")
+        self.quantity_label.pack()
+        self.quantity_entry = ttk.Entry(self, width=20)
+        self.quantity_entry.pack()
 
         self.two_x_button = ttk.Button(self, text='2XL Cost')
         self.two_x_button['command']= self.open_two_x
