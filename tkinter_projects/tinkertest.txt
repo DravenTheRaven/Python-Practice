@@ -1,0 +1,83 @@
+
+Customer: D
+Job Name: u
+Item Number: d
+Color: e
+Quantity: 5
+Price SM-XL: $20.526315789473685
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 3
+Quantity: 3
+Price SM-XL: $13.333333333333334
+Price 2XL: $14.666666666666666
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 4
+Price SM-XL: $40.333333333333336
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 5
+Price: $4.276315789473684
+
+Customer: 4
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 4
+Price SM-XL: $54.333333333333336
+Price 2XL: $55.666666666666664
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 4
+Price: $5.0
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 4
+Price: $4.333333333333333
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 5
+Price: $17.045454545454547
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 3
+Price: $3.9473684210526314
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 4
+Price: $10.29
+
+Customer: 
+Job Name: 
+Item Number: 
+Color: 
+Quantity: 5
+Price SM-XL: $115.47
+Price 2XL: $114.13
+Price 3XL: $119.47
+
+
